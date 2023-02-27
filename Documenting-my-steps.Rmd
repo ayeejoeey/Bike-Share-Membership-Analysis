@@ -1,8 +1,8 @@
----
-title: "Thought Process"
-author: "Joe Sanchez"
-date: "2023-02-27"
-output: html_document
----
+# Preperation
 
-## This is a test
+The last 12 months to-date (as of February 27, 2023) of data from the fictional company, "Cyclistic", have been collected.
+
+See data resource [here](https://divvy-tripdata.s3.amazonaws.com/index.html)
+
+
+

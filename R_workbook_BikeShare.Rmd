@@ -1,6 +1,9 @@
+# Preparation
 
+------------------------------------------------------------------------
 
 ## Libraries
+
 ```{r}
 library(readr)
 library(tibble)
@@ -8,9 +11,10 @@ library(tidyr)
 library(tidyverse)
 ```
 
+Import necessary data-sets\
+*each data-set has new columns added 'ride_length' and 'day_of_week'*\
+Past 12 months of bike trip data:
 
-Import necessary data-sets
-Past 12 months of bike trip data ()
 ```{r}
 jan_tripdata2023 <- read_csv("Local-repo-only/Cyclistic-tripdata-past12months/jan-tripdata2023.csv")
 dec_tripdata2022 <- read_csv("Local-repo-only/Cyclistic-tripdata-past12months/dec-tripdata2022.csv")
@@ -25,8 +29,12 @@ april_tripdata2022 <- read_csv("Local-repo-only/Cyclistic-tripdata-past12months/
 march_tripdata2022 <- read_csv("Local-repo-only/Cyclistic-tripdata-past12months/march-tripdata2022.csv")
 feb_tripdata2022 <- read_csv("Local-repo-only/Cyclistic-tripdata-past12months/feb-tripdata2022.csv")
 ```
+
+Carefully review each data-set to make sure all column variables match
+
 ```{r}
-view(jan_tripdata2023)
+DF = do.call("rbind", list(jan_tripdata2023,dec_tripdata2022,nov_tripdata2022,oct_tripdata2022,sept_tripdata2022,aug_tripdata2022,july_tripdata2022,june_tripdata2022,may_tripdata2022,april_tripdata2022,march_tripdata2022,feb_tripdata2022))
 ```
 
-
+```{r}
+```

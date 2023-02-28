@@ -13,3 +13,5 @@ I will execute the following through excel:
 1.  Create new column 'ride_length' by subtracting 'started_at' from 'ended_at'
 
 2.  Create new column 'day_of_week' by using the WEEKDAY command (1=Sunday and 7=Saturday)
+
+Although more evaluation needs to happen, I wanted to bind all the data-frames (not merge) so that I can clean the data at a larger scale instead of cleaning each data-frame individually.

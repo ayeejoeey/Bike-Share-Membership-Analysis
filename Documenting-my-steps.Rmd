@@ -1,8 +1,15 @@
-# Preperation
+# Preparation
 
 The last 12 months to-date (as of February 27, 2023) of data from the fictional company, "Cyclistic", have been collected.
 
 See data resource [here](https://divvy-tripdata.s3.amazonaws.com/index.html)
 
+While downloading these data-sets, I've taken quick looks at each file through excel just to get an idea of what each data-set consisted of. I found that each data-set share the same amount of columns as well as the column names which happen to be self explanatory and need not further documentation as to what each column represents. I also noticed that each data-set contains more than 100,000 rows of data. Considering there are 12 separate data-sets, combining all of them through excel would be insufficient for reasons being that Microsoft Excel has a maximum row limit of 1,048,576.
 
+So before importing these files directly to BigQuery, I'll conduct my first couple steps of data manipulation just to add more context to the data.
 
+I will execute the following through excel:
+
+1.  Create new column 'ride_length' by subtracting 'started_at' from 'ended_at'
+
+2.  Create new column 'day_of_week' by using the WEEKDAY command (1=Sunday and 7=Saturday)

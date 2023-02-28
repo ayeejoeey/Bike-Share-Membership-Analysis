@@ -1,0 +1,21 @@
+
+
+## Libraries
+```{r}
+library(readr)
+library(tibble)
+library(tidyr)
+library(tidyverse)
+```
+
+
+Import necessary data-sets
+Past 12 months of bike trip data ()
+```{r}
+jan_tripdata2023 <- read_csv("Local-repo-only/Cyclistic-tripdata-past12months/jan-tripdata2023.csv")
+```
+```{r}
+view(jan_tripdata2023)
+```
+
+

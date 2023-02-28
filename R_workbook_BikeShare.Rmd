@@ -13,6 +13,17 @@ Import necessary data-sets
 Past 12 months of bike trip data ()
 ```{r}
 jan_tripdata2023 <- read_csv("Local-repo-only/Cyclistic-tripdata-past12months/jan-tripdata2023.csv")
+dec_tripdata2022 <- read_csv("Local-repo-only/Cyclistic-tripdata-past12months/dec-tripdata2022.csv")
+nov_tripdata2022 <- read_csv("Local-repo-only/Cyclistic-tripdata-past12months/nov-tripdata2022.csv")
+oct_tripdata2022 <- read_csv("Local-repo-only/Cyclistic-tripdata-past12months/oct-tripdata2022.csv")
+sept_tripdata2022 <- read_csv("Local-repo-only/Cyclistic-tripdata-past12months/sept-tripdata2022.csv")
+aug_tripdata2022 <- read_csv("Local-repo-only/Cyclistic-tripdata-past12months/aug-tripdata2022.csv")
+july_tripdata2022 <- read_csv("Local-repo-only/Cyclistic-tripdata-past12months/july-tripdata2022.csv")
+june_tripdata2022 <- read_csv("Local-repo-only/Cyclistic-tripdata-past12months/june-tripdata2022.csv")
+may_tripdata2022 <- read_csv("Local-repo-only/Cyclistic-tripdata-past12months/may-tripdata2022.csv")
+april_tripdata2022 <- read_csv("Local-repo-only/Cyclistic-tripdata-past12months/april-tripdata2022.csv")
+march_tripdata2022 <- read_csv("Local-repo-only/Cyclistic-tripdata-past12months/march-tripdata2022.csv")
+feb_tripdata2022 <- read_csv("Local-repo-only/Cyclistic-tripdata-past12months/feb-tripdata2022.csv")
 ```
 ```{r}
 view(jan_tripdata2023)

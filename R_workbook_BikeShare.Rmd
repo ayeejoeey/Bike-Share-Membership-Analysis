@@ -30,11 +30,28 @@ march_tripdata2022 <- read_csv("Local-repo-only/Cyclistic-tripdata-past12months/
 feb_tripdata2022 <- read_csv("Local-repo-only/Cyclistic-tripdata-past12months/feb-tripdata2022.csv")
 ```
 
-Carefully review each data-set to make sure all column variables match
+Combining all data-sets into one data-frame:
 
 ```{r}
 DF = do.call("rbind", list(jan_tripdata2023,dec_tripdata2022,nov_tripdata2022,oct_tripdata2022,sept_tripdata2022,aug_tripdata2022,july_tripdata2022,june_tripdata2022,may_tripdata2022,april_tripdata2022,march_tripdata2022,feb_tripdata2022))
 ```
 
 ```{r}
+head(DF)
+```
+
+```{r}
+unique_values_end_station <- unique(DF$end_station_name)
+```
+
+```{r}
+view(unique_values_end_station)
+```
+
+```{r}
+len(unique_values_end_station)
+```
+
+```{r}
+unique_values_DF <- unique(DF)
 ```

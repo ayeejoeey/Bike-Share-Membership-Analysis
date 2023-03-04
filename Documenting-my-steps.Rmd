@@ -15,3 +15,9 @@ I will execute the following through excel:
 2.  Create new column 'day_of_week' by using the WEEKDAY command (1=Sunday and 7=Saturday)
 
 Although more evaluation needs to happen, I wanted to bind all the data-frames (not merge) so that I can clean the data at a larger scale instead of cleaning each data-frame individually.
+
+Next step for me is to determine how many missing values there are and how to deal with them.
+
+#### NOTES BEFORE ENDED SESSION:
+
+What is the significance of determining how to fill the missing values for station start and end names? What columns and data should be a priority? Are station IDs just as valuable as station names?

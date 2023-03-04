@@ -53,5 +53,23 @@ len(unique_values_end_station)
 ```
 
 ```{r}
-unique_values_DF <- unique(DF)
+DF_Unique1 <- DF %>%
+  group_by(start_station_name)%>%
+  filter(start_lat == 41.80000 & start_lng == -87.62000)
+```
+
+```{r}
+DF_Unique1_filtered <- (DF_Unique1$start_station_name)
+```
+
+```{r}
+view(DF_Unique1_filtered)
+```
+
+```{r}
+table(DF_Unique1$start_station_name, useNA = "ifany")
+```
+
+```{r}
+sum(is.na(DF$start_station_name))
 ```

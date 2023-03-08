@@ -9,6 +9,8 @@ library(readr)
 library(tibble)
 library(tidyr)
 library(tidyverse)
+library(ggmice)
+library(mice)
 ```
 
 Import necessary data-sets\
@@ -40,7 +42,38 @@ DF = do.call("rbind", list(jan_tripdata2023,dec_tripdata2022,nov_tripdata2022,oc
 head(DF)
 ```
 
+##### These next steps will be to further explore the missing values throughout the data, to determine how to handle the null values
+
 ```{r}
+# To start, I will execute some basic code to get an idea of how many missing values are in the data
+
+# This code counts the total number of missing values in the dataframe
+sum(is.na(DF))
+```
+
+```{r}
+# To get a better idea of how
+plot_pattern(DF)
+```
+
+```{r}
+# This next line of code shows me a percentage of missing values within each column of the dataframe
+round(colSums(is.na(DF))/ nrow(DF),2)
+```
+
+```{r}
+# Visualizing the missing data may help to understand the overall picture as well as any patterns between the missing values
+
+# This line of code creates a plot by using the 'plot_pattern' function from the ggmice' package
+plot_pattern(DF)
+```
+
+##### Before dealing with the missing values, I want to get a better idea of how the missing values correlate with the observed values.
+
+##### I noticed that the majority of the start/end longitude and latitude values are not missing. Which leads me to believe that I can potentially pair the geo location with the '(start/end)\_station_name'.
+
+```{r}
+
 unique_values_end_station <- unique(DF$end_station_name)
 ```
 
@@ -49,47 +82,27 @@ view(unique_values_end_station)
 ```
 
 ```{r}
-len(unique_values_end_station)
+length(unique_values_end_station)
 ```
 
 ```{r}
+# This line of code filters the data frame to show only the rows with certain latitude and longitude conditions
+
 DF_Unique1 <- DF %>%
   group_by(start_station_name)%>%
   filter(start_lat == 41.80000 & start_lng == -87.62000)
 ```
 
 ```{r}
-DF_Unique1_filtered <- (DF_Unique1$start_station_name)
-```
+# This line of code displays a table of 'start_station_name' values that pair with the latitude and longitude condition within the "DF_Unique1" filter
 
-```{r}
-view(DF_Unique1_filtered)
-```
-
-```{r}
 table(DF_Unique1$start_station_name, useNA = "ifany")
 ```
 
-```{r}
-sum(is.na(DF))
-```
+##### For this lat & long combination, I can replace the 'start_station_name' values with either "Calumet Ave & 51st St" or "Public Rack - Calumet Ave & 51st St" because they are the most common station names.
+
+##### However, after running the code below, you'll see that there are over 600 thousand unique latitude values. Which makes it unrealistic to manually sift through each latitude/longitude value to find the start_station_names that are paired with them.
 
 ```{r}
-library(ggmice)
-```
-
-```{r}
-round(colSums(is.na(DF))/ nrow(DF),2)
-```
-
-```{r}
-browseVignettes(package = 'ggmice')
-```
-
-```{r}
-help(plot_pattern)
-```
-
-```{r}
-plot_pattern(DF)
+length(unique(DF$start_lat))
 ```

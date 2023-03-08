@@ -81,3 +81,15 @@ library(ggmice)
 ```{r}
 round(colSums(is.na(DF))/ nrow(DF),2)
 ```
+
+```{r}
+browseVignettes(package = 'ggmice')
+```
+
+```{r}
+help(plot_pattern)
+```
+
+```{r}
+plot_pattern(DF)
+```

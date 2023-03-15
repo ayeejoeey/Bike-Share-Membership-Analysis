@@ -106,3 +106,37 @@ table(DF_Unique1$start_station_name, useNA = "ifany")
 ```{r}
 length(unique(DF$start_lat))
 ```
+
+##### Moving forward, to simplify this dataframe, I will just include the time, length, membership type and ride type feature columns as part of the analysis. This will be considered a limitation on the data analysis project as a whole. 
+
+```{r}
+# this code creates a new dataframe with only the selected feature columns
+DF_revised <- DF%>%
+  select(ride_id, rideable_type, started_at, ended_at, member_casual, ride_length, day_of_week)
+```
+
+##### Now that I've created a simplified and limited new dataframe, I'll take a look at the missing and observed values to see if further cleaning is needed.
+
+```{r}
+# this code creates a visual of missing values in the dataframe
+plot_pattern(DF_revised)
+```
+
+##### After reviewing the missing values and noticing that there are only 856 missing values out of 5.7m entries, deleting these rows with missing values will not have impact on the overall analysis. However, I think it is important to understand why there are missing values to begin with, considering that the "ride_length" column was formed out of simple calculation by subtracting "start_at" from "ended_at" columns.
+
+```{r}
+# to view the ride_length missing values on the dataframe I used to following code
+DF_revised %>% filter(is.na(ride_length))
+```
+
+##### By filtering the null values in "ride_length" I was able to understand why the initial calculation was bringing up a null value. The calculation for "ride_length" brought up null values for either two reasons. One, the ride length extended 24hrs or two, the "start_at" time was actually after the "end_at" time, which would've resulted in a negative ride length time. 
+
+##### Now that I understand why there are null values in "ride_length" and that I cannot replace the values without manipulating the data entries and jeopardizing the integrity of the data, I will just continue to remove these rows.
+
+```{r}
+DF_revised <- DF_revised[complete.cases(DF_revised),]
+```
+
+```{r}
+print(DF_revised)
+```

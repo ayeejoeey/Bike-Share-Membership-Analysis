@@ -140,3 +140,8 @@ DF_revised <- DF_revised[complete.cases(DF_revised),]
 ```{r}
 print(DF_revised)
 ```
+
+```{r}
+# double checking null values
+plot_pattern(DF_revised)
+```

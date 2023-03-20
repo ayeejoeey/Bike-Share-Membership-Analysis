@@ -29,3 +29,11 @@ What is the significance of determining how to fill the missing values for stati
 After further reviewing the missing values, I noticed that majority of the missing values are located within the start_station and end_station, names and IDs. Imputing the missing values would need further work and perhaps machine learning techniques. However for data analysis, there are still some important feature columns that can still provide insightful results.
 
 So going forward, I will be taking out the columns that include the start and end location data, and I will just focus on the time, length, membership type and ride type.
+
+Final data made. Now for analysis.
+
+# Analysis
+
+Business problem reminder: The director of marketing believes the company's future success depends on maximizing the number of annual memberships. The objective is to prove or disprove this theory by finding the distinction between casual and annual memberships. 
+
+

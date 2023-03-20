@@ -107,7 +107,7 @@ table(DF_Unique1$start_station_name, useNA = "ifany")
 length(unique(DF$start_lat))
 ```
 
-##### Moving forward, to simplify this dataframe, I will just include the time, length, membership type and ride type feature columns as part of the analysis. This will be considered a limitation on the data analysis project as a whole. 
+##### Moving forward, to simplify this dataframe, I will just include the time, length, membership type and ride type feature columns as part of the analysis. This will be considered a limitation on the data analysis project as a whole.
 
 ```{r}
 # this code creates a new dataframe with only the selected feature columns
@@ -129,7 +129,7 @@ plot_pattern(DF_revised)
 DF_revised %>% filter(is.na(ride_length))
 ```
 
-##### By filtering the null values in "ride_length" I was able to understand why the initial calculation was bringing up a null value. The calculation for "ride_length" brought up null values for either two reasons. One, the ride length extended 24hrs or two, the "start_at" time was actually after the "end_at" time, which would've resulted in a negative ride length time. 
+##### By filtering the null values in "ride_length" I was able to understand why the initial calculation was bringing up a null value. The calculation for "ride_length" brought up null values for either two reasons. One, the ride length extended 24hrs or two, the "start_at" time was actually after the "end_at" time, which would've resulted in a negative ride length time.
 
 ##### Now that I understand why there are null values in "ride_length" and that I cannot replace the values without manipulating the data entries and jeopardizing the integrity of the data, I will just continue to remove these rows.
 
@@ -144,4 +144,38 @@ print(DF_revised)
 ```{r}
 # double checking null values
 plot_pattern(DF_revised)
+```
+
+```{r}
+DF_Final <- DF_revised %>%
+  mutate(date = as.Date(started_at, "%m/%d/%Y"))
+```
+
+```{r}
+DF_Final <- DF_Final %>%
+  hm(ride_length)
+  
+```
+
+------------------------------------------------------------------------
+
+# Analysis
+
+------------------------------------------------------------------------
+
+##### To begin my analysis, I want to start looking at simple comparisons between casual and member memberships.
+
+```{r}
+casual_memb <- DF_Final %>%
+  filter(member_casual == "casual")
+```
+
+```{r}
+casual_memb
+```
+
+```{r}
+casual_memb%>%
+  group_by(date) %>%
+  summarise(avg = round(mean(ride_length)/60))
 ```

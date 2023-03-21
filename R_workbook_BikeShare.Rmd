@@ -151,12 +151,6 @@ DF_Final <- DF_revised %>%
   mutate(date = as.Date(started_at, "%m/%d/%Y"))
 ```
 
-```{r}
-DF_Final <- DF_Final %>%
-  hm(ride_length)
-  
-```
-
 ------------------------------------------------------------------------
 
 # Analysis

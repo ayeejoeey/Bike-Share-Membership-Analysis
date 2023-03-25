@@ -147,8 +147,24 @@ plot_pattern(DF_revised)
 ```
 
 ```{r}
-DF_Final <- DF_revised %>%
-  mutate(date = as.Date(started_at, "%m/%d/%Y"))
+DF_Final <- DF_revised 
+```
+
+```{r}
+DF_Final$started_at <- as.numeric(DF_Final$started_at)
+```
+
+```{r}
+View(DF_Final)
+```
+
+```{r}
+DF_Final$year <- strftime(DF_Final$started_at, "%Y")
+DF_Final$month <- strftime(DF_Final$started_at, "%m")
+```
+
+```{r}
+
 ```
 
 ------------------------------------------------------------------------

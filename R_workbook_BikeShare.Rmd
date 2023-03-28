@@ -176,6 +176,8 @@ DF_Final$new_date <- strftime(paste(DF_Final$Date), format = "%m:%Y")
 
 ```
 
+Note: date and time have been separated from "started_at". Now just need to formate "Date" to just month and year to continue analysis
+
 ------------------------------------------------------------------------
 
 # Analysis

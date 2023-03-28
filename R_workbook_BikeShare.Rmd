@@ -151,7 +151,11 @@ DF_Final <- DF_revised
 ```
 
 ```{r}
-DF_Final$started_at <- as.numeric(DF_Final$started_at)
+DF_Final[c('Date', 'Time')] <- str_split_fixed(DF_Final$started_at, " ", 2)
+```
+
+```{r}
+DF_Final$Date <- as.numeric(DF_Final$started_at)
 ```
 
 ```{r}
@@ -159,12 +163,16 @@ View(DF_Final)
 ```
 
 ```{r}
-DF_Final$year <- strftime(DF_Final$started_at, "%Y")
-DF_Final$month <- strftime(DF_Final$started_at, "%m")
+DF_Final$Date <- as.POSIXct(as.character(DF_Final$Date), origin='1970-01-01')
 ```
 
 ```{r}
-DF_Final$new_date <- as.POSIXct(paste(DF_Final$started_at), format = "%m:%d:%Y %H:%M:%S") 
+DF_Final$year <- strftime(DF_Final$Date, "%Y")
+DF_Final$month <- strftime(DF_Final$Date, "%m")
+```
+
+```{r}
+DF_Final$new_date <- strftime(paste(DF_Final$Date), format = "%m:%Y") 
 
 ```
 

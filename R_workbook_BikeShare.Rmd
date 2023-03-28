@@ -164,6 +164,7 @@ DF_Final$month <- strftime(DF_Final$started_at, "%m")
 ```
 
 ```{r}
+DF_Final$new_date <- as.POSIXct(paste(DF_Final$started_at), format = "%m:%d:%Y %H:%M:%S") 
 
 ```
 

@@ -162,22 +162,6 @@ DF_Final$Date <- as.numeric(DF_Final$started_at)
 View(DF_Final)
 ```
 
-```{r}
-DF_Final$Date <- as.POSIXct(as.character(DF_Final$Date), origin='1970-01-01')
-```
-
-```{r}
-DF_Final$year <- strftime(DF_Final$Date, "%Y")
-DF_Final$month <- strftime(DF_Final$Date, "%m")
-```
-
-```{r}
-DF_Final$new_date <- strftime(paste(DF_Final$Date), format = "%m:%Y") 
-
-```
-
-Note: date and time have been separated from "started_at". Now just need to formate "Date" to just month and year to continue analysis
-
 ------------------------------------------------------------------------
 
 # Analysis

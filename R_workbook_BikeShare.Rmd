@@ -162,6 +162,20 @@ DF_Final$ride_length <- as.character(strptime(DF_Final$ride_length, "%H:%M:%S"),
 View(DF_Final)
 ```
 
+```{r}
+DF_Final[c('hours_riding', 'minutes_riding', 'seconds_riding')] <- str_split_fixed(DF_Final$ride_length, ":", 3)
+```
+
+```{r}
+DF_Final$hours_riding <- as.numeric(DF_Final$hours_riding)
+DF_Final$minutes_riding <- as.numeric(DF_Final$minutes_riding)
+DF_Final$seconds_riding <- as.numeric(DF_Final$seconds_riding)
+```
+
+```{r}
+write_csv(DF_Final,"DF_Final_V2.csv")
+```
+
 ------------------------------------------------------------------------
 
 # Analysis

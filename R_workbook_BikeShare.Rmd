@@ -151,11 +151,15 @@ DF_Final <- DF_revised
 ```
 
 ```{r}
-DF_Final[c('Date', 'Time')] <- str_split_fixed(DF_Final$started_at, " ", 2)
+DF_Final[c('date', 'time')] <- str_split_fixed(DF_Final$started_at, " ", 2)
 ```
 
 ```{r}
-DF_Final$Date <- as.numeric(DF_Final$started_at)
+DF_Final$ride_length <- as.character(strptime(DF_Final$ride_length, "%H:%M:%S"), "%H:%M:%S")
+```
+
+```{r}
+DF_Final$date <- as.numeric(DF_Final$started_at)
 ```
 
 ```{r}
@@ -169,18 +173,3 @@ View(DF_Final)
 ------------------------------------------------------------------------
 
 ##### To begin my analysis, I want to start looking at simple comparisons between casual and member memberships.
-
-```{r}
-casual_memb <- DF_Final %>%
-  filter(member_casual == "casual")
-```
-
-```{r}
-casual_memb
-```
-
-```{r}
-casual_memb%>%
-  group_by(date) %>%
-  summarise(avg = round(mean(ride_length)/60))
-```

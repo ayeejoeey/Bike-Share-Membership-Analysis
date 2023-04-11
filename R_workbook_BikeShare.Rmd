@@ -159,10 +159,6 @@ DF_Final$ride_length <- as.character(strptime(DF_Final$ride_length, "%H:%M:%S"),
 ```
 
 ```{r}
-DF_Final$date <- as.numeric(DF_Final$started_at)
-```
-
-```{r}
 View(DF_Final)
 ```
 

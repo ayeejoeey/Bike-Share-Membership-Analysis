@@ -18,13 +18,13 @@ Although more evaluation needs to happen, I wanted to bind all the data-frames (
 
 Next step for me is to determine how many missing values there are and how to deal with them.
 
-#### NOTES BEFORE ENDED SESSION (03/03/2023):
+#### NOTES BEFORE ENDED SESSION:
 
 What is the significance of determining how to fill the missing values for station start and end names? What columns and data should be a priority? Are station IDs just as valuable as station names?
 
 ------------------------------------------------------------------------
 
-#### Continued.. (03/06/2023)
+#### Continued.. 
 
 After further reviewing the missing values, I noticed that majority of the missing values are located within the start_station and end_station, names and IDs. Imputing the missing values would need further work and perhaps machine learning techniques. However for data analysis, there are still some important feature columns that can still provide insightful results.
 
@@ -37,3 +37,10 @@ Final data made. Now for analysis.
 Business problem reminder: The director of marketing believes the company's future success depends on maximizing the number of annual memberships. The objective is to prove or disprove this theory by finding the distinction between casual and annual memberships. 
 
 
+For comparisons and contrast, I will resume my analysis on Tableau! Tableau will allow me to conveniently visualize the data that makes sense to the objective. 
+
+I will summarize the context and findings of the visualizations in Tableau.And I will also take note of the visualizations here in my RStudio Documentation tab.
+
+Tableau Sheet 1: Average amount of minutes casuals and membership riders ride throughout the year. Casual Members average 4-6 minutes more of riding then membership riders.
+
+Tabluau Sheet 2: 

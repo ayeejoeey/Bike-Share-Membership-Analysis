@@ -24,7 +24,7 @@ What is the significance of determining how to fill the missing values for stati
 
 ------------------------------------------------------------------------
 
-#### Continued.. 
+#### Continued..
 
 After further reviewing the missing values, I noticed that majority of the missing values are located within the start_station and end_station, names and IDs. Imputing the missing values would need further work and perhaps machine learning techniques. However for data analysis, there are still some important feature columns that can still provide insightful results.
 
@@ -34,13 +34,29 @@ Final data made. Now for analysis.
 
 # Analysis
 
-Business problem reminder: The director of marketing believes the company's future success depends on maximizing the number of annual memberships. The objective is to prove or disprove this theory by finding the distinction between casual and annual memberships. 
+Business problem reminder: The director of marketing believes the company's future success depends on maximizing the number of annual memberships. The objective is to prove or disprove this theory by finding the distinction between casual and annual memberships.
 
-
-For comparisons and contrast, I will resume my analysis on Tableau! Tableau will allow me to conveniently visualize the data that makes sense to the objective. 
+For comparisons and contrast, I will resume my analysis on Tableau! Tableau will allow me to conveniently visualize the data that makes sense to the objective.
 
 I will summarize the context and findings of the visualizations in Tableau.And I will also take note of the visualizations here in my RStudio Documentation tab.
 
-Tableau Sheet 1: Average amount of minutes casuals and membership riders ride throughout the year. Casual Members average 4-6 minutes more of riding then membership riders.
+##### Tableau Sheet "Average Minutes":
+Average amount of minutes casuals and membership riders ride throughout the year. Casual Members average 4-6 minutes more of riding then membership riders. Casual riders tend to spend more time on the bikes than membership riders.
 
-Tabluau Sheet 2: 
+##### Tableau Sheet "Daily Ride Activity":
+Daily Activity for each month. Riders with memberships are more active monday-friday with activity spikes of about 10k more riders riding tuesday-thursday.
+
+Casual riders with no membership are more active on weekends with dips in activity from Sunday to Monday and spikes back up from Friday to Saturday. The company is experiencing dips and spikes of about 20k - 30k rides every week for casual riders.
+
+##### Tableau Sheet "Bike Type":
+This sheet shows a visualization of what type of bikes are used between casual riders and membership riders. Members use electric bikes as much as they use classic bikes with 1.7M membership riders using classic and 1.6M membership riders using electric.
+
+Casual riders tend to ride the electric bikes more than the classic bikes with 1.2M riders using electric and 900K riders using classic bikes.
+
+##### Tableau Sheet "Hour of Day Active":
+Stacked bar chart showing both casual and membership rider activity for each hour throughout the day. Normal distribution of activity for both members and casual riders imply that there is little difference between what hours of the day riders are active. 
+
+Membership riders have a slight spike bigger than casual riders around 8am.
+
+##### Tableau Sheet "Membership/Casual Count":
+This pie chart shows the percentage of both casual and membership riders that make up the whole clientele. 41% of riders are casual and 59% of riders have a membership out of a total of 5.75M riders.

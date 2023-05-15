@@ -182,4 +182,4 @@ write_csv(DF_Final,"DF_Final_V2.csv")
 
 ------------------------------------------------------------------------
 
-##### To begin my analysis, I want to start looking at simple comparisons between casual and member memberships.
+##### I will continue further analysis using Tableau. I will be able to aggregate, manipulate and visualize the data to support my findings. 

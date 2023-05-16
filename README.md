@@ -24,6 +24,8 @@ These three questions will help guide the future marketing program:
 
 3.  How can Cyclistic use digital media to influence casual riders to become members?
 
-## Data Understanding
+## Data Understanding & Limitations
 
 All data used for this analysis comes from the company's internal historical data. The data collected reflects the previous 12 months of Cyclistic trip data prior to the start of the case study. (Note: The datasets have a different name because Cyclistic is a fictional company. For the purposes of this case study, the datasets are appropriate and will enable you to answer the business questions. The data has been made available by Motivate International Inc. under this [license](https://ride.divvybikes.com/data-license-agreement).)
+
+Data-privacy issues prohibit me from using riders' personally identifiable information. This means that I won't be able to connect pass purchases to credit card numbers to determine if casual riders live in the Cyclistic service area or if they have purchased multiple single passes.

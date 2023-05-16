@@ -65,3 +65,9 @@ Membership riders have a slight spike bigger than casual riders around 8am.
 ##### Tableau Sheet "Membership/Casual Count":
 
 This pie chart shows the percentage of both casual and membership riders that make up the whole clientele. 41% of riders are casual and 59% of riders have a membership out of a total of 5.75M riders.
+
+## Recommendations
+
+One of the ways Cyclistic markets their bikes is by offering single-ride passes and full-day passes. Without data on how often and to what extent these passes are purchased, we can potentially miss out on information that help us better understand the casual segment.
+
+Cyclistic sets itself apart by offering a variety of other bikes like reclining bikes, hand tricycles, and cargo bikes which can help people with disabilities and/or don't know how to use a standard two-wheeled bike. We know that 8% of Cyclistic riders use the assistive options. By focusing on the quality of rides for these assisted riders, we can potentially broaden and welcome more riders and offer a special discounted price for them.

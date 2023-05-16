@@ -32,4 +32,4 @@ Data-privacy issues prohibit me from using riders' personally identifiable infor
 
 ## Analysis & Methodoligies 
 
-The following visualizations are static and can be further evaluated in Tableau [here](
+The following visualizations are static and can be further evaluated in Tableau [here](https://public.tableau.com/authoring/Rideshare-Analysis_V2/Dashboard1#1)!

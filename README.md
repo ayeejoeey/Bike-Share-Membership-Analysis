@@ -12,7 +12,7 @@ Until now, Cyclistic's marketing strategy relied on building general awareness a
 
 The director of marketing believes that maximizing the number of annual members will be key to future growth. Rather than creating a marketing campaign that targets all-new customers, she believes there is a very good chance to convert casual riders into members.
 
-Business objective will be to design marketing strategies aimed at converting casual riders into annual members. In order to do that, however, the marketing analyst team needs to better understand how annual members and casual riders differ, why casual riders would buy a membership, and how digital media could affect their marketing tactics. The marketing director and her team are interested in analyzing the Cyclistic historical bike trip data to identify trends.
+The business objective will be to design marketing strategies aimed at converting casual riders into annual members. In order to do that, however, the marketing analyst team needs to better understand how annual members and casual riders differ, why casual riders would buy a membership, and how digital media could affect their marketing tactics. The marketing director and her team are interested in analyzing the Cyclistic historical bike trip data to identify trends.
 
 ## Guided Questions
 
@@ -29,3 +29,7 @@ These three questions will help guide the future marketing program:
 All data used for this analysis comes from the company's internal historical data. The data collected reflects the previous 12 months of Cyclistic trip data prior to the start of the case study. (Note: The datasets have a different name because Cyclistic is a fictional company. For the purposes of this case study, the datasets are appropriate and will enable you to answer the business questions. The data has been made available by Motivate International Inc. under this [license](https://ride.divvybikes.com/data-license-agreement).)
 
 Data-privacy issues prohibit me from using riders' personally identifiable information. This means that I won't be able to connect pass purchases to credit card numbers to determine if casual riders live in the Cyclistic service area or if they have purchased multiple single passes.
+
+## Analysis & Methodoligies 
+
+The following visualizations are static and can be further evaluated in Tableau [here](

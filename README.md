@@ -4,7 +4,7 @@
 
 ## Overview
 
-For this case study, a bike-share company in Chicago by the name of Cyclistic wants to utilize the skills of the marketing analyst team by designing a new market strategy to convert casual riders into annual members. The director of marketing believes the company's future success depends on maximizing the number of annual memberships. Therefore, it is up to me to help the team understand how casual riders and annual members use Cyclistic bikes differently. Before we put out a new marketing strategy, Cyclistic executives must approve my recommendations, so they must be backed up with compelling data insights and professional data visualizations.
+For this case study, a bike-share company in Chicago by the name of Cyclistic wants to utilize the skills of the marketing analyst team by designing a new marketing strategy to convert casual riders into annual members. The director of marketing believes the company's future success depends on maximizing the number of annual memberships. Therefore, it is up to me to help the team understand how casual riders and annual members use Cyclistic bikes differently. Before we put out a new marketing strategy, Cyclistic executives must approve my recommendations, so they must be backed up with compelling data insights and professional data visualizations.
 
 ## Business Understanding
 
@@ -34,6 +34,6 @@ Data-privacy issues prohibit me from using riders' personally identifiable infor
 
 The following visualizations are static and can be further evaluated in Tableau [here](https://public.tableau.com/authoring/Rideshare-Analysis_V2/Dashboard1#1)!
 
-The past 12 months of historical data include over 5.7 million rows. For this analysis I looked at two demographics that make up these 5.7m rows.
+The past 12 months of historical data include over 5.7 million rows. For this analysis I looked at two demographics that make up these 5.7m rows, membership riders and casual riders.
 
 ![casual_membership_percentile](Visuals/Membership_Casual%20Count%20(Percentage).png)

@@ -30,6 +30,10 @@ All data used for this analysis comes from the company's internal historical dat
 
 Data-privacy issues prohibit me from using riders' personally identifiable information. This means that I won't be able to connect pass purchases to credit card numbers to determine if casual riders live in the Cyclistic service area or if they have purchased multiple single passes.
 
-## Analysis & Methodoligies 
+## Analysis
 
 The following visualizations are static and can be further evaluated in Tableau [here](https://public.tableau.com/authoring/Rideshare-Analysis_V2/Dashboard1#1)!
+
+The past 12 months of historical data include over 5.7 million rows. For this analysis I looked at two demographics that make up these 5.7m rows.
+
+![casual_membership_percentile](Visuals/Membership_Casual%20Count%20(Percentage).png)

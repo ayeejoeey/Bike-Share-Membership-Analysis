@@ -36,6 +36,8 @@ The following visualizations are static and can be further evaluated in Tableau 
 
 The past 12 months of historical data include over 5.7 million rows. For this analysis I looked at two demographics that make up these 5.7m rows, membership riders and casual riders.
 
+Please note that the colors assigned to each target variable refer to the priority in which we view the membership riders as opposed to the casual riders. Green refers to the priority and grey refers to the values that we need to convert.
+
 ![casual_membership_percentile](Visuals/Membership_Casual%20Count%20(Percentage).png)
 
 My main objective is to find significant differences between these two target variables (Members and Casual).
@@ -45,3 +47,7 @@ To get an idea of what the ride activity looks like, I first looked at the volum
 Here's what it looks like for the year:
 
 ![rideactivity1](Visuals/Count%20of%20Rides(Year).png)
+
+From this visualization we can see that the membership riders are more active throughout the year even in the winter seasons. Only one month out of the 12 you see here did membership riders have a low count of 90k rides and a high of over 400k rides in July, August, and September.
+
+For casual riders, the most activity seen range from the month of May to the month of October before dropping significantly. It seems casual riders prefer the months that are not part of the winter seasons in Chicago.

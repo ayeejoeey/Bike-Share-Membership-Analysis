@@ -44,4 +44,4 @@ To get an idea of what the ride activity looks like, I first looked at the volum
 
 Here's what it looks like for the year:
 
-![rideactivity1](Visuals/Count of Rides(Year).png)
+![rideactivity1](Visuals/Count%20of%20Rides(Year).png)

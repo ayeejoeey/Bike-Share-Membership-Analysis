@@ -40,6 +40,8 @@ Please note that the colors assigned to each target variable refer to the priori
 
 ![casual_membership_percentile](Visuals/Membership_Casual%20Count%20(Percentage).png)
 
+-   There are 3.4 million membership riders and 2.3 million casual riders
+
 My main objective is to find significant differences between these two target variables (Members and Casual).
 
 To get an idea of what the ride activity looks like, I first looked at the volume of rides throughout the year by month, and then the volume of rides throughout the week!
@@ -48,6 +50,20 @@ Here's what it looks like for the year:
 
 ![rideactivity1](Visuals/Count%20of%20Rides(Year).png)
 
-From this visualization we can see that the membership riders are more active throughout the year even in the winter seasons. Only one month out of the 12 you see here did membership riders have a low count of 90k rides and a high of over 400k rides in July, August, and September.
+-   From this visualization we can see that the membership riders are more active throughout the year even in the winter seasons. Only one month out of the 12 you see here did membership riders have a low count of 90k rides and a high of over 400k rides in July, August, and September.
 
-For casual riders, the most activity seen range from the month of May to the month of October before dropping significantly. It seems casual riders prefer the months that are not part of the winter seasons in Chicago.
+-   For casual riders, the most activity seen range from the month of May to the month of October before dropping significantly. It seems casual riders prefer the months that are not part of the winter seasons in Chicago.
+
+To get more of an idea of why we see less activity from casual riders on some of the months, I've created a visual of the daily activity for both membership and casual riders.
+
+![rideactivitydaily](Visuals/Daily%20Ride%20Activity(June&July).png)
+
+-   Here is a visualization of the daily ride activity for both target variables in the month of june and july.
+
+-   The numbers 1-7 correlate to the 7 days of the week. 1 being Sunday through 7 being Saturday.
+
+-   This graph tells me that the casual riders seem to only prefer weekend rides as opposed to the membership riders who ride more throughout the weekdays.
+
+-   This is also the case for the rest of the months in the year, which poses a theory that the majority of membership riders use the bikes for commuting and the majority of casual riders use the bikes for leisure on the weekends. Which may be the reason why the volume of casual riders takes a dip in the winter seasons!
+
+To further analyze this theory, I decided to take a closer look at the hours in the day that these riders are active. Hopefully the results will allow me to answer one of the initial guiding questions, "How do annual members and casual riders use Cyclistic bikes differently?".

@@ -37,3 +37,11 @@ The following visualizations are static and can be further evaluated in Tableau 
 The past 12 months of historical data include over 5.7 million rows. For this analysis I looked at two demographics that make up these 5.7m rows, membership riders and casual riders.
 
 ![casual_membership_percentile](Visuals/Membership_Casual%20Count%20(Percentage).png)
+
+My main objective is to find significant differences between these two target variables (Members and Casual).
+
+To get an idea of what the ride activity looks like, I first looked at the volume of rides throughout the year by month, and then the volume of rides throughout the week!
+
+Here's what it looks like for the year:
+
+![rideactivityyear](Visuals%5CCount%20of%20Rides(Year).png)

@@ -102,3 +102,15 @@ One of the ways Cyclistic markets their bikes is by offering single-ride passes 
 Cyclistic sets itself apart by offering a variety of other bikes like reclining bikes, hand tricycles, and cargo bikes which can help people with disabilities and/or don't know how to use a standard two-wheeled bike. We know that 8% of Cyclistic riders use the assistive options. By focusing on the quality of rides for these assisted riders, we can potentially broaden and welcome more riders and offer a special discounted price for them.
 
 I also believe adding weather data to the analysis can provide significant information that pertains to the ride-share data for membership and casual riders. Because as we well know, riding a bike is an outdoor activity, so including weather trends can potentially support the theories on ride-share activity.
+
+## Repository Navigation 
+
+├──[Visuals/ ](<https://github.com/ayeejoeey/Bike-Share-Membership-Analysis/tree/main/Visuals>[)](https://github.com/njw27/SER_Capstone/tree/main/images)) \<\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\--Directrory of all images Used For Project \<br\>
+
+├──[ .gitignore ](<https://github.com/ayeejoeey/Bike-Share-Membership-Analysis/blob/main/.gitignore>[)](https://github.com/njw27/SER_Capstone/blob/main/.gitignore)) \<\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-- Git Ignore for Project Repo \<br\>
+
+├──[ README.md ]([https://github.com/njw27/SER_Capstone/blob/main/README.md)](https://github.com/njw27/SER_Capstone/blob/main/README.md)) \< \-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-- README.md that you are currently reading \<br\>
+
+├──[ Documentation of Thought Process ](<https://github.com/ayeejoeey/Bike-Share-Membership-Analysis/blob/main/Documenting-my-steps.Rmd>[)](https://github.com/njw27/SER_Capstone/blob/main/SER_Notebook.pdf)) \<\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-- Rmd file of though process \<br\>
+
+├──[ RStudio Project File ](<https://github.com/ayeejoeey/Bike-Share-Membership-Analysis/blob/main/R_workbook_BikeShare.Rmd>[)](https://github.com/njw27/SER_Capstone/blob/main/SER_Notebook.ipynb)) \<\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-- Rstudio Case Study analysis \<br\>

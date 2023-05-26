@@ -111,6 +111,6 @@ I also believe adding weather data to the analysis can provide significant infor
 
 [README.md](https://github.com/ayeejoeey/Bike-Share-Membership-Analysis/blob/main/README.md) -- README.md that you are currently reading 
 
-[Documentation of Thought Process](https://github.com/ayeejoeey/Bike-Share-Membership-Analysis/blob/main/Documenting-my-steps.Rmd) -- Rmd file of though process 
+[Documentation of Thought Process](https://github.com/ayeejoeey/Bike-Share-Membership-Analysis/blob/main/Documenting-my-steps.Rmd) -- Rmd file of thought process 
 
 [RStudio Rmd File](https://github.com/ayeejoeey/Bike-Share-Membership-Analysis/blob/main/R_workbook_BikeShare.Rmd) -- Rstudio Case Study analysis 

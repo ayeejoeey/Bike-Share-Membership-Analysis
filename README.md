@@ -105,12 +105,12 @@ I also believe adding weather data to the analysis can provide significant infor
 
 ## Repository Navigation 
 
-[Visuals](<https://github.com/ayeejoeey/Bike-Share-Membership-Analysis/tree/main/Visuals>[)](https://github.com/njw27/SER_Capstone/tree/main/images)) --Directory of all images Used For Project 
+[Visuals](https://github.com/ayeejoeey/Bike-Share-Membership-Analysis/tree/main/Visuals) --Directory of all images Used For Project 
 
-[.gitignore](<https://github.com/ayeejoeey/Bike-Share-Membership-Analysis/blob/main/.gitignore>[)](https://github.com/njw27/SER_Capstone/blob/main/.gitignore)) -- Git Ignore for Project Repo
+[.gitignore](https://github.com/ayeejoeey/Bike-Share-Membership-Analysis/blob/main/.gitignore) -- Git Ignore for Project Repo
 
-[README.md]([https://github.com/njw27/SER_Capstone/blob/main/README.md)](https://github.com/njw27/SER_Capstone/blob/main/README.md)) -- README.md that you are currently reading 
+[README.md](https://github.com/ayeejoeey/Bike-Share-Membership-Analysis/blob/main/README.md) -- README.md that you are currently reading 
 
-[Documentation of Thought Process](<https://github.com/ayeejoeey/Bike-Share-Membership-Analysis/blob/main/Documenting-my-steps.Rmd>[)](https://github.com/njw27/SER_Capstone/blob/main/SER_Notebook.pdf)) -- Rmd file of though process 
+[Documentation of Thought Process](https://github.com/ayeejoeey/Bike-Share-Membership-Analysis/blob/main/Documenting-my-steps.Rmd) -- Rmd file of though process 
 
-[RStudio Project File](<https://github.com/ayeejoeey/Bike-Share-Membership-Analysis/blob/main/R_workbook_BikeShare.Rmd>[)](https://github.com/njw27/SER_Capstone/blob/main/SER_Notebook.ipynb)) -- Rstudio Case Study analysis 
+[RStudio Rmd File](https://github.com/ayeejoeey/Bike-Share-Membership-Analysis/blob/main/R_workbook_BikeShare.Rmd) -- Rstudio Case Study analysis 

@@ -87,3 +87,9 @@ To further analyze this theory, I decided to take a closer look at the hours in 
 3.  How can Cyclistic use digital media to influence casual riders to become members? I think if we're going in the direction of campaigning for riders to commute to work, advertising media in and around popular business centers would be my first step. Cyclistic can look into investing in digital advertising display systems to promote this campaign. Connecting with local social media influencers with large followings can be of great use as well to outreach a bigger audience.
 
 ## Recommendations
+
+One of the ways Cyclistic markets their bikes is by offering single-ride passes and full-day passes. Without data on how often and to what extent these passes are purchased, we can potentially miss out on information that help us better understand the casual segment.
+
+Cyclistic sets itself apart by offering a variety of other bikes like reclining bikes, hand tricycles, and cargo bikes which can help people with disabilities and/or don't know how to use a standard two-wheeled bike. We know that 8% of Cyclistic riders use the assistive options. By focusing on the quality of rides for these assisted riders, we can potentially broaden and welcome more riders and offer a special discounted price for them.
+
+I also believe adding weather data to the analysis can provide significant information that pertains to the ride-share data for membership and casual riders. Because as we well know, riding a bike is an outdoor activity, so including weather trends can potentially support the theories on ride-share activity.

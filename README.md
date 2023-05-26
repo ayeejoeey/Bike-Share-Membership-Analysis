@@ -9,6 +9,11 @@ For this case study, a bike-share company in Chicago by the name of Cyclistic wa
 ## Directory
 
 1.  [Business Understanding](https://github.com/ayeejoeey/Bike-Share-Membership-Analysis#business-understanding)
+2.  [Guided Questions](https://github.com/ayeejoeey/Bike-Share-Membership-Analysis#guided-questions)
+3.  [Data Understanding & Limitations](https://github.com/ayeejoeey/Bike-Share-Membership-Analysis#data-understanding--limitations)
+4.  [Analysis](https://github.com/ayeejoeey/Bike-Share-Membership-Analysis#analysis)
+5.  [Conclusion](https://github.com/ayeejoeey/Bike-Share-Membership-Analysis#conclusion)
+6.  [Recommendations](https://github.com/ayeejoeey/Bike-Share-Membership-Analysis#recommendations)
 
 ## Business Understanding
 

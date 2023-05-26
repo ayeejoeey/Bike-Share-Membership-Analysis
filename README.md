@@ -14,7 +14,7 @@ For this case study, a bike-share company in Chicago by the name of Cyclistic wa
 4.  [Analysis](https://github.com/ayeejoeey/Bike-Share-Membership-Analysis#analysis)
 5.  [Conclusion](https://github.com/ayeejoeey/Bike-Share-Membership-Analysis#conclusion)
 6.  [Recommendations](https://github.com/ayeejoeey/Bike-Share-Membership-Analysis#recommendations)
-
+7.  [Repository Navigation](https://github.com/ayeejoeey/Bike-Share-Membership-Analysis/tree/main#repository-navigation)
 ## Business Understanding
 
 Until now, Cyclistic's marketing strategy relied on building general awareness and appealing to broad consumer segments. One approach that helped make these things possible was the flexibility of its pricing plans: single-ride passes, full-day passes, and annual memberships. Customers who purchase single-ride or full-day passes are referred to as casual riders. Customers who purchase annual memberships are Cyclistic members.
@@ -105,12 +105,12 @@ I also believe adding weather data to the analysis can provide significant infor
 
 ## Repository Navigation 
 
-├──[Visuals/ ](<https://github.com/ayeejoeey/Bike-Share-Membership-Analysis/tree/main/Visuals>[)](https://github.com/njw27/SER_Capstone/tree/main/images)) \<\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\--Directrory of all images Used For Project \<br\>
+[Visuals/ ](<https://github.com/ayeejoeey/Bike-Share-Membership-Analysis/tree/main/Visuals>[)](https://github.com/njw27/SER_Capstone/tree/main/images)) --Directory of all images Used For Project 
 
-├──[ .gitignore ](<https://github.com/ayeejoeey/Bike-Share-Membership-Analysis/blob/main/.gitignore>[)](https://github.com/njw27/SER_Capstone/blob/main/.gitignore)) \<\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-- Git Ignore for Project Repo \<br\>
+[ .gitignore ](<https://github.com/ayeejoeey/Bike-Share-Membership-Analysis/blob/main/.gitignore>[)](https://github.com/njw27/SER_Capstone/blob/main/.gitignore)) -- Git Ignore for Project Repo
 
-├──[ README.md ]([https://github.com/njw27/SER_Capstone/blob/main/README.md)](https://github.com/njw27/SER_Capstone/blob/main/README.md)) \< \-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-- README.md that you are currently reading \<br\>
+[ README.md ]([https://github.com/njw27/SER_Capstone/blob/main/README.md)](https://github.com/njw27/SER_Capstone/blob/main/README.md)) -- README.md that you are currently reading 
 
-├──[ Documentation of Thought Process ](<https://github.com/ayeejoeey/Bike-Share-Membership-Analysis/blob/main/Documenting-my-steps.Rmd>[)](https://github.com/njw27/SER_Capstone/blob/main/SER_Notebook.pdf)) \<\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-- Rmd file of though process \<br\>
+[ Documentation of Thought Process](<https://github.com/ayeejoeey/Bike-Share-Membership-Analysis/blob/main/Documenting-my-steps.Rmd>[)](https://github.com/njw27/SER_Capstone/blob/main/SER_Notebook.pdf)) -- Rmd file of though process 
 
-├──[ RStudio Project File ](<https://github.com/ayeejoeey/Bike-Share-Membership-Analysis/blob/main/R_workbook_BikeShare.Rmd>[)](https://github.com/njw27/SER_Capstone/blob/main/SER_Notebook.ipynb)) \<\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-- Rstudio Case Study analysis \<br\>
+[ RStudio Project File ](<https://github.com/ayeejoeey/Bike-Share-Membership-Analysis/blob/main/R_workbook_BikeShare.Rmd>[)](https://github.com/njw27/SER_Capstone/blob/main/SER_Notebook.ipynb)) -- Rstudio Case Study analysis 

@@ -6,6 +6,10 @@
 
 For this case study, a bike-share company in Chicago by the name of Cyclistic wants to utilize the skills of the marketing analyst team by designing a new marketing strategy to convert casual riders into annual members. The director of marketing believes the company's future success depends on maximizing the number of annual memberships. Therefore, it is up to me to help the team understand how casual riders and annual members use Cyclistic bikes differently. Before we put out a new marketing strategy, Cyclistic executives must approve my recommendations, so they must be backed up with compelling data insights and professional data visualizations.
 
+## Directory
+
+1.  [Business Understanding](https://github.com/ayeejoeey/Bike-Share-Membership-Analysis#business-understanding)
+
 ## Business Understanding
 
 Until now, Cyclistic's marketing strategy relied on building general awareness and appealing to broad consumer segments. One approach that helped make these things possible was the flexibility of its pricing plans: single-ride passes, full-day passes, and annual memberships. Customers who purchase single-ride or full-day passes are referred to as casual riders. Customers who purchase annual memberships are Cyclistic members.

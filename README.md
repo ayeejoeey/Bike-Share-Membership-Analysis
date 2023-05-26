@@ -67,3 +67,17 @@ To get more of an idea of why we see less activity from casual riders on some of
 -   This is also the case for the rest of the months in the year, which poses a theory that the majority of membership riders use the bikes for commuting and the majority of casual riders use the bikes for leisure on the weekends. Which may be the reason why the volume of casual riders takes a dip in the winter seasons!
 
 To further analyze this theory, I decided to take a closer look at the hours in the day that these riders are active. Hopefully the results will allow me to answer one of the initial guiding questions, "How do annual members and casual riders use Cyclistic bikes differently?".
+
+![hoursactive](Visuals/Hour%20of%20Day%20Active.png)
+
+-   This data is a collection of all 12 months summed up and categorized into the 24 hours in a day.
+
+-   Considering that there are about 20% more membership riders than casual riders, its safe to say both parties follow a normal distribution of ride activity throughout the day.
+
+-   However, there is one area that caught my eye that could support my original theory.
+
+-   In the early hours of 6am through 9am, there seems to be a big spike in activity for membership riders as opposed to casual riders.
+
+## Conclusion
+
+To answer the first question as to how membership riders differ from casual riders, I believe that the majority of the membership riders use Cyclistic's bikes for commuting to and from work and the casual riders ride the bikes for leisure. Without survey feedback it is almost impossible to give an estimated percentage of how many membership and casual riders. Given the results of the data however, reassures the theory that this is the case for membership riders and that casual riders .

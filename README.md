@@ -80,4 +80,10 @@ To further analyze this theory, I decided to take a closer look at the hours in 
 
 ## Conclusion
 
-To answer the first question as to how membership riders differ from casual riders, I believe that the majority of the membership riders use Cyclistic's bikes for commuting to and from work and the casual riders ride the bikes for leisure. Without survey feedback it is almost impossible to give an estimated percentage of how many membership and casual riders. Given the results of the data however, reassures the theory that this is the case for membership riders and that casual riders .
+1.  To answer the first question as to how membership riders differ from casual riders, I believe that the majority of the membership riders use Cyclistic's bikes for commuting to and from work and the casual riders ride the bikes for leisure. Without survey feedback it is almost impossible to give an estimated percentage of how each party uses the Cyclistic's bikes. Given the results of the data however, reassures the theory that this is the case for membership riders and that casual riders .
+
+2.  Why would casual riders buy Cyclistic annual membership? To answer this second question, I believe advocating for commuting using Cyclistic bikes would influence casual riders to purchase an annual membership. Currently casual riders spend more time riding only 6 months out of the year. An annual membership wouldn't make sense to buy unless riders had a reason to ride throughout the year which in this case would be, to commute for work.
+
+3.  How can Cyclistic use digital media to influence casual riders to become members? I think if we're going in the direction of campaigning for riders to commute to work, advertising media in and around popular business centers would be my first step. Cyclistic can look into investing in digital advertising display systems to promote this campaign. Connecting with local social media influencers with large followings can be of great use as well to outreach a bigger audience.
+
+## Recommendations
